@@ -1,0 +1,34 @@
+/* 🎨 Hechizos Personalizados de Pythonia */
+
+/* Sección Hero: El fondo mágico degradado */
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding-top: 60px; /* Espacio para la navbar fija */
+}
+
+/* Efecto Hover en las Tarjetas: Levitación mágica */
+.card-hover {
+    cursor: pointer;
+    transition: all 0.3s ease; /* Suavidad del movimiento */
+}
+
+.card-hover:hover {
+    transform: translateY(-10px); /* Se mueve 10px hacia arriba */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important; /* Sombra más fuerte */
+}
+
+/* Ajuste fino para la navbar sobre el hero */
+navbar {
+    z-index: 1000;
+}
+
+/* Estilos adicionales para el footer */
+footer a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #667eea !important; /* Color mágico al pasar el mouse */
+}
